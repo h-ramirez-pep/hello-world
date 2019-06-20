@@ -1,0 +1,13 @@
+begin-setup
+#include 'ptset01.sqc'         ! Init printer and page size
+
+  declare-variable     
+    integer  #vndr_nbr
+    integer #row_insert_cnt
+    integer #row_update_cnt
+    integer #row_oprupdate_cnt
+    integer #dual_vendor_cnt
+    integer #new_max
+  end-declare
+
+end-setup
